@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class Eliminar {
 
     public static void main(String[] args) {
+        //dejo el scanner porque he puesto el tamaño del array hardcoded, pero se puede modificar en cualquier momento
         Scanner reader = new Scanner(System.in);
         //El array lo hago de tamaño 10 por no ir cambiandolo cada vez
         int[] listaNums = new int[10];
