@@ -14,7 +14,7 @@ public class Eliminar {
         System.out.println("que indice quieres mandar al final?");
         do {
             indice = reader.nextInt();
-        } while (indice < 0 || indice > 9);
+        } while (indice < -1 || indice > 9);
         Utilidades.rellenaArray(listaNums, 0, 10);
         System.out.println("el array original es este:");
         System.out.println(Arrays.toString(listaNums));
